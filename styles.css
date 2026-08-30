@@ -14,7 +14,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding:20px 40px;
+  width: 100%;      
 }
 .logo h2 {
   display: flex;
@@ -30,7 +31,8 @@ body {
 }
 
 .logo-icon {
-  height: 40px;
+  height: 40px !important;
+  max-height: 40px !important;
   width: auto;
   object-fit: contain;
 }
@@ -39,13 +41,15 @@ body {
   margin: 0 15px;
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 .cart {
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 .badge {
